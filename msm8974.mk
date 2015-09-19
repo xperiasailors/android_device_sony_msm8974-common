@@ -152,4 +152,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.opengles.version=196608
 
 # Include non-opensource parts
-$(call inherit-product, vendor/sony/msm8974-common/msm8974-common-vendor.mk)
+$(call inherit-product-if-exists, vendor/sony/msm8974-common/msm8974-common-vendor.mk)
